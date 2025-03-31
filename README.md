@@ -1,2 +1,3 @@
-# line-webhook-demo
-Webhook server for LINE Messaging API
+# LINE Webhook Demo
+
+Simple webhook to collect userId from LINE Messaging API.
