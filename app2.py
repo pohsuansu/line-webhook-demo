@@ -30,7 +30,7 @@ def webhook():
             print("📩 收到訊息，使用者 ID:", user_id)
 
             # 回覆歡迎訊息
-            send_reply(reply_token, "✅ 您的 LINE 已註冊成功，謝謝！")
+            send_reply(reply_token, "您的 LINE 已註冊成功，謝謝！")
 
             # 如果是新使用者才記錄
             if user_id not in known_users:
