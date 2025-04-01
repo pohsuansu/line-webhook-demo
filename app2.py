@@ -53,4 +53,5 @@ def send_reply(token, message):
             "text": message
         }]
     }
-    requests.post(url, headers=headers, data=json.dumps(payload).encode("utf-8"))
+    requests.post(url, headers=headers, json=payload)
+
